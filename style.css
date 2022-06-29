@@ -1,0 +1,60 @@
+body {
+    image-rendering:pixelated;
+    background-image: url(img/fundoDoSit.jpg);
+    Font-family: Bodoni MT, Bodoni 72, Didot, Didot LT STD, Hoefler Text, Garamond,
+     Times New Roman, serif;
+}
+
+.titulo,
+.form-label,
+.form-check-label{
+    text-align: center;
+    color: rgb(187, 34, 34);
+    background-color: aliceblue;
+
+}
+
+.nav-link {
+    margin-left: -12px;
+}
+
+.nav{
+    background-color: black;
+}
+
+.card{
+    display: flex;
+    margin-left: 35%;
+ 
+}
+
+
+.formulario{
+    position: center;
+    background-color: rgb(231, 226, 226);
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 15%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

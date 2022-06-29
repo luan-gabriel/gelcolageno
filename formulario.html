@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GELCOLAGENO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text" href="index.html">
+</head>
+
+<body>
+<h1 class="titulo">Por favor, preencher corretamente ! </h1>
+    <div class="formulario">
+    <form class="row g-3">
+        <div class="col-md-4">
+            <label for="validationDefault01" class="form-label">Primeiro Nome</label>
+            <input type="text" class="form-control" id="validationDefault01" value="" required>
+        </div>
+        <div class="col-md-4">
+            <label for="validationDefault02" class="form-label">Segundo Nome</label>
+            <input type="text" class="form-control" id="validationDefault02" value="" required>
+        </div>
+        <div class="col-md-4">
+            <label for="validationDefaultUsername" class="form-label">Número do crachá</label>
+            <div class="input-group">
+                <span class="input-group-text" id="inputGroupPrepend2">💳</span>
+                <input type="text" class="form-control" id="validationDefaultUsername"
+                    aria-describedby="inputGroupPrepend2" required>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <label for="validationDefault04" class="form-label">Tipos de colágeno</label>
+            <select class="form-select" id="validationDefault04" required>
+                <option selected disabled value="">Escolha...</option>
+                <option>PHD</option>
+                <option>PLUS</option>
+            </select>
+        </div>
+        <div class="col-md-3">
+            <label for="validationDefault05" class="form-label">Quantidade</label>
+            <select class="form-select" id="validationDefault04" required>
+                <option selected disabled value="">Escolha...</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+            </select>
+        </div>
+        <div class="col-12">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                <label class="form-check-label" for="invalidCheck2">
+                    Sou funcionário
+                </label>
+            </div>
+        </div>
+        <div class="col-12">
+            <button class="btn btn-primary" type="submit">Enviar formulário</button>
+        </div>
+    </form>
+    </div>
+
+</body>
+
+</html>
